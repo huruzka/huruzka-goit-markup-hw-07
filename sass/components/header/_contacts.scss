@@ -6,9 +6,9 @@
 
 .email:hover,
 .email:focus{
-    fill: var(--blue-color);
-    color: var(--blue-color);
-    background-color: var(--white-color);
+    fill: $blue-color;
+    color: $blue-color;
+    background-color: $white-color;
 }
 
 .tel:hover,

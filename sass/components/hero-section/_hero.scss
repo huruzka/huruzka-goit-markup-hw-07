@@ -12,9 +12,8 @@
     url("../images/mainpic.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-}
 
-.hero__titel{
+&__titel{
     width: 696px;
     height: 120px;
     margin-left: auto;
@@ -31,7 +30,7 @@
     color: $white-color;
     }
 
-.hero__button{
+&__button{
     display: block;
     min-width: 200px;
     height: 50px;
@@ -50,6 +49,7 @@
     border: 0px;
     border-radius: 4px;
     cursor: pointer
+}
 }
 
 .hero__button--close{
