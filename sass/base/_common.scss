@@ -1,0 +1,44 @@
+.container{
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+body{
+  font-family: $main-font;
+  color: $text-color;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+/*стили заголовкам h2*/
+.titel{
+  margin-bottom: 50px;
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  color: $titels-color;
+}
+
+/*стили заголовка h3*/
+.portfolio-titel{
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: $titels-color;
+}
+
+/*стили подзаголовков*/
+.portfolio-subtitel{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: $text-color;
+}

@@ -1,0 +1,45 @@
+.contact{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.email:hover,
+.email:focus{
+    fill: var(--blue-color);
+    color: var(--blue-color);
+    background-color: var(--white-color);
+}
+
+.tel:hover,
+.tel:focus{
+    fill: $blue-color;
+    color: $blue-color;
+    background-color: $white-color;
+}
+
+
+.contact__item + .contact__item{
+    margin-left: 50px;
+}
+
+.email,
+.tel{
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: $text-color;
+    fill: $text-color;
+
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.tel__icon,
+.email__icon{
+    margin-right: 10px;
+} 

@@ -492,7 +492,6 @@ margin-bottom: 30px;
     background-color: var(--background-team);
     background-repeat: no-repeat;
     background-position: center;
-    /*outline: 1px solid red;*/
     margin-bottom: 30px;
 }
 
@@ -901,6 +900,7 @@ background-color: var(--blue-color);
     line-height: 1.19;
     color: var(--blue-color);
    }
+   
 .style{
     color: var(--white-color);
 }
