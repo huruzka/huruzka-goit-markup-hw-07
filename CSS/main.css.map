@@ -8,7 +8,19 @@
         "../sass/base/_common.scss",
         "../sass/components/header/_logo.scss",
         "../sass/components/header/_navigation.scss",
-        "../sass/components/header/_contacts.scss"
+        "../sass/components/header/_contacts.scss",
+        "../sass/components/hero/_hero.scss",
+        "../sass/components/hero/_backdrop.scss",
+        "../sass/components/hero/_modal-form.scss",
+        "../sass/components/_advantage.scss",
+        "../sass/components/_do.scss",
+        "../sass/components/_team.scss",
+        "../sass/components/portfolio/_filter-buttoms.scss",
+        "../sass/components/portfolio/_portfolio-list.scss",
+        "../sass/components/footer/_footer.scss",
+        "../sass/components/footer/_logo.scss",
+        "../sass/components/footer/_social-links.scss",
+        "../sass/components/footer/_subscribe.scss"
     ],
     "names": [],
     "file": "main.css"
