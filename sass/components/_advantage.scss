@@ -1,11 +1,10 @@
 .advantage{
     padding-bottom: 94px;
     padding-top: 94px;
-}
-
-.advantage-list{
+&-list{
     display: flex;
     flex-wrap: wrap;
+    }
 }
 
 .advantage-list .advantage-item{

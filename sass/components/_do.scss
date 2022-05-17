@@ -1,32 +1,10 @@
 .do{
     padding-bottom: 94px;
     padding-top: 0px;
-}
-
-.do-list{
+&-list{
     display: flex;
-}
-
-.do-list-item{
-    position: relative;
-    margin-right: 30px;
-}
-
-.do-list-item:last-child{
-    margin-right: 0px;
-}
-
-.do-list-item::before{
-    display: inline-block;
-    content: "";
-    background-color: $section-do;
-    position: absolute;
-    bottom: 0;
-    width: 370px;
-    height: 70px;
-}
-
-.do-text{
+    }  
+&-text{
     position: absolute;
     bottom: 27px;
     left: 86px;
@@ -37,4 +15,22 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: $white-color;
+}
+}
+
+.do-list-item{
+    position: relative;
+    margin-right: 30px;
+&:last-child{
+    margin-right: 0px;
+}
+&::before{
+    display: inline-block;
+    content: "";
+    background-color: $section-do;
+    position: absolute;
+    bottom: 0;
+    width: 370px;
+    height: 70px;
+    }
 }

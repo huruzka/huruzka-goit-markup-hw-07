@@ -2,6 +2,9 @@
     display: flex;
     align-items: center;
     margin-left: auto;
+&__item + &__item{
+        margin-left: 50px;
+    }
 }
 
 .email:hover,
@@ -16,11 +19,6 @@
     fill: $blue-color;
     color: $blue-color;
     background-color: $white-color;
-}
-
-
-.contact__item + .contact__item{
-    margin-left: 50px;
 }
 
 .email,
