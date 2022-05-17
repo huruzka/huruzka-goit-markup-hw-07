@@ -127,7 +127,7 @@ border-color: $blue-color;
     &:checked + &__icon{
         border-color: $blue-color;
         background-color: $blue-color;
-        background-image: url(../images/icon\ check.svg);
+        background-image: url("/images/icon\ check.svg");
         background-size: content;
         background-repeat: no-repeat;
     }
