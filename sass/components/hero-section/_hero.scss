@@ -4,15 +4,15 @@
     background-color: $background-hero-section;
     max-width: 1600px;
     height: 600px;
-    margin-left: auto;
-    margin-right: auto;
     background-image: linear-gradient(to right, 
     rgba(47,48,58,0.4),
     rgba(47,48,58,0.4))
     url("../images/mainpic.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-
+    margin-left: auto;
+    margin-right: auto;
+   
 &__titel{
     width: 696px;
     height: 120px;
